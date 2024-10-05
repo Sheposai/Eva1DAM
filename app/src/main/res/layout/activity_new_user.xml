@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para ingresar nombre de usuario -->
+    <EditText
+        android:id="@+id/new_username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de usuario"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <!-- Campo para ingresar contraseña -->
+    <EditText
+        android:id="@+id/new_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <!-- Botón para guardar usuario -->
+    <Button
+        android:id="@+id/save_user_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Usuario"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Botón para eliminar usuario -->
+    <Button
+        android:id="@+id/delete_user_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Usuario"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Botón para actualizar usuario -->
+    <Button
+        android:id="@+id/update_user_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Usuario"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Botón para buscar usuario -->
+    <Button
+        android:id="@+id/search_user_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar Usuario"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp" />
+
+</LinearLayout>
